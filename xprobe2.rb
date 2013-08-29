@@ -86,4 +86,3 @@ class Xprobe2 < RProgram::Program
   end
 end
 
-Xprobe2.my_run :target => 192.168.206.1
