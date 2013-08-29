@@ -6,7 +6,15 @@ Gem::Specification.new do |s|
   s.description = "A wrapper and parser for using Xprobe2 in Ruby"
   s.authors     = ["Gabe Koss"]
   s.email       = 'gabe@gabekoss.com'
-  s.files       = ["lib/xprobe2.rb"]
+  s.files       = [
+    "lib/xprobe2.rb", 
+    "lib/xprobe2/base.rb",
+    "lib/xprobe2/program.rb",
+    "lib/xprobe2/task.rb"
+    ]
   s.homepage    = "https://github.com/granolocks/xprobe2-rb"
+
   s.license       = 'MIT'
+
+  s.add_dependency('rprogram')
 end
